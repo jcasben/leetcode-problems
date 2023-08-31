@@ -1,7 +1,7 @@
 # LeetCode Problems
 
 ## ESP
-EN este repositorio subiré mis soluciones a los problemas de [LeetCode](https://leetcode.com/).
+En este repositorio subiré mis soluciones a los problemas de [LeetCode](https://leetcode.com/).
 Por ahora, intentaré resolver los ejercicios en los siguientes lenguajes de programación:
 
 - Rust
