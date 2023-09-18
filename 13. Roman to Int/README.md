@@ -62,8 +62,7 @@ The implementation of the solution got the following results:
 
 ### Java
 
-**Runtime:** 4 ms (better than 68.79% of LeetCode users)
-
-**Memory Usage:** 43.8 MB (better than 45.26% of LeetCode users)
+- **Runtime:** 4 ms (better than 68.79% of LeetCode users)
+- **Memory Usage:** 43.8 MB (better than 45.26% of LeetCode users)
 
 ### Rust

@@ -36,20 +36,19 @@ Output: `[0,1]`
 
 
 ***
+## Results
 
 This implementation of the solution got the following results:
 
 ### Rust
 
-**Runtime:** 54 ms (better than 12.1% of LeetCode users)
-
-**Memory Usage:** 2.2 MB (better than 61.14% of LeetCode users)
+- **Runtime:** 54 ms (better than 12.1% of LeetCode users)
+- **Memory Usage:** 2.2 MB (better than 61.14% of LeetCode users)
 
 ### Java
 
-**Runtime:** 95 ms (better than 5.88% of LeetCode users)
-
-**Memory Usage:** 47.3 MB (better than 58.42% of LeetCode users)
+- **Runtime:** 95 ms (better than 5.88% of LeetCode users)
+- **Memory Usage:** 47.3 MB (better than 58.42% of LeetCode users)
 
 
 

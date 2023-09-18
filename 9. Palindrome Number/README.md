@@ -32,6 +32,7 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 - `-231 <= x <= 231 - 1`
 
 ***
+## Results
 
 This implementation of the solution got the following results:
 
