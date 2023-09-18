@@ -7,7 +7,7 @@ fn main() {
 
     for (index1, i) in nums.iter().enumerate() {
         for (index2, j) in nums.iter().enumerate() {
-            if index1 == index2 { 
+            if index1 == index2 {
                 continue;
             }
             if i + j == target {
