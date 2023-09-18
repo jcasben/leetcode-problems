@@ -36,6 +36,13 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 This implementation of the solution got the following results:
 
+### Rust
+
 - **Runtime:** 3 ms (better than 89.77% of LeetCode users)
 - **Memory Usage:** 2 MB (better than 92.72% of LeetCode users)
+
+### Java
+
+- **Runtime:** 7 ms (better than 30.45% of LeetCode users)
+- **Memory Usage:** 42.4 MB (better than 96.2% of LeetCode users)
 
