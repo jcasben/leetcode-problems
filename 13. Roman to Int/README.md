@@ -66,3 +66,6 @@ The implementation of the solution got the following results:
 - **Memory Usage:** 43.8 MB (better than 45.26% of LeetCode users)
 
 ### Rust
+
+- **Runtime:** 4 ms (better than 35.26% of LeetCode users)
+- **Memory Usage:** 2.03 MB (better than 60.48% of LeetCode users)
