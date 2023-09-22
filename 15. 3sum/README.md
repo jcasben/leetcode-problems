@@ -50,3 +50,9 @@ Constraints:
 
 ## Results
 
+The implementation of the solution got the following results:
+
+### Java
+
+- **Runtime:** 301 ms (better than 28.30% of LeetCode users)
+- **Memory Usage:** 51,50 MB (better than 26.46% of LeetCode users)

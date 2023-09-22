@@ -1,49 +1,32 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class ThreeSum {
-    private static List<List<Integer>> sol = new ArrayList<>();
     public static void main(String[] args) {
-        int [] nums = {0,1,1};
+        int [] nums = {1,1,0};
+        Arrays.sort(nums);
+        Set<List<Integer>> ans=new HashSet<>();
+        for(int i = 0; i < nums.length-2; i++){
+            int p1 = i+1;
+            int p2 = nums.length-1;
+            while(p1 < p2){
+                int sum = nums[i]+nums[p1]+nums[p2];
+                if(sum == 0){
+                    ArrayList<Integer> sp = new ArrayList<>();
+                    sp.add(nums[i]);
+                    sp.add(nums[p1]);
+                    sp.add(nums[p2]);
 
-        for (int i = 0; i < nums.length; i++) {
-            twoSum(nums, (nums[i] * -1), i);
-        }
-        removeEmpty(sol);
-        System.out.println(sol);
-    }
-
-    public static void twoSum(int [] nums, int target, int index) {
-        outerLoop:
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = 0; j < nums.length; j++) {
-                if ((j == i) || (i == index) || (j == index)) {
-                    continue;
-                } else if (nums[i] + nums[j] == target) {
-                    ArrayList<Integer> tmp = new ArrayList<>();
-                    tmp.add(nums[i]);
-                    tmp.add(nums[j]);
-                    tmp.add(target * -1);
-                    addToSol(tmp);
-                    //return new int[]{i, j};
+                    ans.add(sp);
+                    p1++;
+                }
+                else if(sum < 0){
+                    p1++;
+                }
+                else{
+                    p2--;
                 }
             }
         }
-    }
-
-    public static void addToSol(ArrayList<Integer> tmp) {
-        Collections.sort(tmp);
-        if (!sol.contains(tmp)) {
-            sol.add(tmp);
-        }
-    }
-
-    public static void removeEmpty(List<List<Integer>> sol) {
-        for (int i = 0; i < sol.size(); i++) {
-            if (sol.get(i).isEmpty()) {
-                sol.remove(i);
-            }
-        }
+        System.out.println(new ArrayList<>(ans));
     }
 }
