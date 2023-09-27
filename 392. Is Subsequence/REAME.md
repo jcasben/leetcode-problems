@@ -9,19 +9,19 @@ of "abcde" while "aec" is not).
 
 ### Example 1:
 
-Input: s = "abc", t = "ahbgdc"
+Input: ``s = "abc", t = "ahbgdc"``
 
-Output: true
+Output: ``true``
 
 ### Example 2:
 
-Input: s = "axc", t = "ahbgdc"
+Input: s = ``"axc", t = "ahbgdc"``
 
 Output: false
 
 
-Constraints:
+### Constraints:
 
-- 0 <= s.length <= 100
-- 0 <= t.length <= 104
+- ``0 <= s.length <= 100``
+- ``0 <= t.length <= 104``
 - s and t consist only of lowercase English letters.
