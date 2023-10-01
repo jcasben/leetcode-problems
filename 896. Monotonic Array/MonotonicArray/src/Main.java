@@ -1,9 +1,7 @@
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
         int [] nums = {1,1,0};
-        System.out.println(Main.solution(nums));
+        System.out.println(ReverseWords.solutionReverseWords(nums));
     }
 
     public static boolean solution(int [] nums) {
