@@ -22,3 +22,14 @@ Output: `"doG gniD"`
 - s does not contain any leading or trailing spaces.
 - There is at least one word in s.
 - All the words in s are separated by a single space.
+
+***
+
+## Results
+
+The implementation of the solution got the following results:
+
+### Java
+
+- **Runtime:** 8 ms (better than 45.95% of LeetCode users)
+- **Memory Usage:** 44,1 MB (better than 63.82% of LeetCode users)
