@@ -23,5 +23,16 @@ Output: false
 ### Constraints:
 
 - ``0 <= s.length <= 100``
-- ``0 <= t.length <= 104``
+- ``0 <= t.length <= 10^4``
 - s and t consist only of lowercase English letters.
+
+***
+
+## Results
+
+The implementation of the solution got the following results:
+
+### Java
+
+- **Runtime:** 1 ms (better than 90.85% of LeetCode users)
+- **Memory Usage:** 40,02 MB (better than 91.89% of LeetCode users)
