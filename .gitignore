@@ -1,5 +1,4 @@
-/.idea
-leetcode-problems.iml
-/out
-**/**/target
+.idea/
+out/
+target/
 *.iml
