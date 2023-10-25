@@ -46,3 +46,8 @@ This implementation of the solution got the following results:
 - **Runtime:** 7 ms (better than 30.45% of LeetCode users)
 - **Memory Usage:** 42.4 MB (better than 96.2% of LeetCode users)
 
+### C#
+
+- **Runtime:** 31 ms (better than 88.27% of LeetCode users)
+- **Memory Usage:** 30.14 MB (better than 46.01% of LeetCode users)
+
