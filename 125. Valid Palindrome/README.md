@@ -1,5 +1,7 @@
 # Valid Palindrome
 
+[Link to the exercise.](https://leetcode.com/problems/valid-palindrome/description/)
+
 A phrase is a palindrome if, after converting all uppercase letters 
 into lowercase letters and removing all non-alphanumeric characters, 
 it reads the same forward and backward. Alphanumeric characters 
@@ -48,3 +50,8 @@ The implementation of the solution got the following results:
 
 - **Runtime:** 3 ms (better than 71.68% of LeetCode users)
 - **Memory Usage:** 43,73 MB (better than 38.40% of LeetCode users)
+
+### C#
+
+- **Runtime:** 71 ms (better than 61.98% of LeetCode users)
+- **Memory Usage:** 40,37 MB (better than 78.58% of LeetCode users)
