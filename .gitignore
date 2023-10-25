@@ -2,8 +2,6 @@
 out/
 target/
 *.iml
-*.sln
 obj/
 bin/
-*.csproj
 Folder.DotSettings.user
