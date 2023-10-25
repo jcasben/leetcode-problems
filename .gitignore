@@ -6,3 +6,4 @@ target/
 obj/
 bin/
 *.csproj
+Folder.DotSettings.user
