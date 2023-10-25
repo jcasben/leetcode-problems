@@ -6,6 +6,7 @@ Por ahora, intentaré resolver los ejercicios en los siguientes lenguajes de pro
 
 - Rust
 - Java
+- C#
 
 Probablemente en el futuro añadiré nuevas soluciones en nuevos lenguajes de programación.
 
@@ -21,6 +22,7 @@ For now, I will try to solve this exercises in the following languages:
 
 - Java
 - Rust
+- C#
 
 In the future, new languages may be added to this list.
 
