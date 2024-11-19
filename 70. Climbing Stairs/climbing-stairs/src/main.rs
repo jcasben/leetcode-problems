@@ -1,8 +1,8 @@
 fn main() {
-    climbing_stairs(10);
+    climb_stairs(10);
 }
 
-pub fn climbing_stairs(n: i32) -> i32 {
+pub fn climb_stairs(n: i32) -> i32 {
     let mut i = 0;
     let mut a = 1;
     let mut b = 0;
